@@ -62,6 +62,10 @@ ul {
 
 /* ------------HEADER------------*/
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .main-header {
     display: flex;
     align-items: center;
@@ -391,10 +395,13 @@ ul {
     margin: -15px;
 }
 
+.projects-img {
+    display: block;
+}
+
 .projects-item {
     flex-basis: calc(100% / 3 - 30px);
     margin: 15px;
-    padding-bottom: 20px;
 
     text-align: left;
 }
@@ -406,7 +413,6 @@ ul {
 }
 
 .projects-title {
-    margin-top: 20px;
     margin-bottom: 4px;
     
     font-weight: 700;
